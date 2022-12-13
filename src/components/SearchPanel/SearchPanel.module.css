@@ -1,0 +1,6 @@
+.panel{
+    display: grid;
+    grid-area: input;
+    padding: 5px 10px;
+    width: 1fr;
+}

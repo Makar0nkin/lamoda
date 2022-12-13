@@ -1,0 +1,13 @@
+.range{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.number{
+    width: 30%;
+}
+
+.space{
+    margin: 0 5%;
+}

@@ -1,0 +1,6 @@
+.cards{
+    display: grid;
+    grid-template: auto/ 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-area: cards;
+}
