@@ -49,10 +49,6 @@ const Cards = ({cards, setAmountOfFilteredCards, colorFilter, costFilter, btnSor
     setIsLoading(false)
     return () => clearTimeout(debounce)
   }, [colorFilter, costFilter, btnSort, strFilter])
-
-  // return(
-  //   <Loader/>
-  // )
   if (isLoading)
     return (
       <Loader/>

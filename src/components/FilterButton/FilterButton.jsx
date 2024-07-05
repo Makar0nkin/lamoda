@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import classes from "./FilterButton.module.css"
 
 const FilterButton = ({children, id, sort, setSort, isChecked, setCheckedButton}) => {
